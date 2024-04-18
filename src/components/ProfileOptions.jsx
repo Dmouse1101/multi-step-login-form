@@ -3,6 +3,7 @@ import dribblePink from "../images/dribble_pink.png";
 import img1 from "../images/1.png";
 import img2 from "../images/2.png";
 import img3 from "../images/3.png";
+import Card from "./Card";
 import { useNavigate, useLocation } from "react-router-dom";
 
 const ProfileOptions = () => {

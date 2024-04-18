@@ -13,7 +13,6 @@ const Uploadpic = () => {
     setAvatar(URL.createObjectURL(file));
   };
 
-  console.log(avatar);
   const handleLocationChange = (event) => {
     setLocation(event.target.value);
   };

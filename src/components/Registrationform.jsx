@@ -76,7 +76,6 @@ const Registrationform = () => {
     if (Object.keys(errorsObj).length === 0) {
       // Place your account creation logic here
       navigate("/uploadpic", { state: { data: formData } });
-      // console.log("Form data:", formData);
     }
   };
 
