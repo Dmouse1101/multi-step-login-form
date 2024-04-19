@@ -1,8 +1,4 @@
 import React, { useState } from "react";
-import dribblePink from "../images/dribble_pink.png";
-import img1 from "../images/1.png";
-import img2 from "../images/2.png";
-import img3 from "../images/3.png";
 // import Card from "./Card";
 import { useNavigate, useLocation } from "react-router-dom";
 
@@ -29,7 +25,7 @@ const ProfileOptions = () => {
   return (
     <div className="flex flex-col items-center">
       <img
-        src={dribblePink}
+        src="/images/dribble_pink.png"
         alt="dribble logo"
         className="absolute h-9 left-0 top-4"
       />
@@ -47,7 +43,11 @@ const ProfileOptions = () => {
           }`}
           onClick={() => handleOptionClick("share")}
         >
-          <img src={img1} alt="Designer Share" className="w-full h-28 mb-2" />
+          <img
+            src="/images/1.png"
+            alt="Designer Share"
+            className="w-full h-28 mb-2"
+          />
           <span className="text-center font-bold">
             I'm a designer looking to share my work
           </span>
@@ -68,7 +68,11 @@ const ProfileOptions = () => {
           }`}
           onClick={() => handleOptionClick("hire")}
         >
-          <img src={img2} alt="Designer Hire" className="w-half h-28 mb-2" />
+          <img
+            src="/images/2.png"
+            alt="Designer Hire"
+            className="w-half h-28 mb-2"
+          />
           <span className="text-center font-bold">
             I'm looking to hire a designer
           </span>
@@ -90,7 +94,7 @@ const ProfileOptions = () => {
           onClick={() => handleOptionClick("inspiration")}
         >
           <img
-            src={img3}
+            src="/images/3.png"
             alt="Designer Inspiration"
             className="w-full h-28 mb-2"
           />

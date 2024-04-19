@@ -1,12 +1,11 @@
 import React from "react";
-import dribble_pink from "../images/dribble_pink.png";
 const Footer = () => {
   return (
     <>
       <footer className="bg-white py-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="w-60 max-md:w-48 max-sm:clear-both float-left my-6">
-            <img src={dribble_pink} alt="dribble" className="h-9" />
+            <img src="/images/dribble_pink.png" alt="dribble" className="h-9" />
             <div className=" text-sm font-sans my-6">
               Dribble is the world's leading community for creatives to share,
               grow, and get hired.

@@ -1,6 +1,5 @@
 import React from "react";
 import { useState } from "react";
-import dribble from "../images/dribble.png";
 
 const Header = ({ propic }) => {
   const [showMenu, setShowMenu] = useState(false);
@@ -14,7 +13,11 @@ const Header = ({ propic }) => {
         <div className="flex gap-10">
           <div className="flex items-center">
             <a href="#" className="">
-              <img src={dribble} alt="dribble logo" className="h-8" />
+              <img
+                src="/images/dribble.png"
+                alt="dribble logo"
+                className="h-8"
+              />
             </a>
           </div>
           <div className="md:hidden">

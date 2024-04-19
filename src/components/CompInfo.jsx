@@ -1,13 +1,11 @@
 import React, { useState } from "react";
-import dribble from "../images/dribble.png";
-import dribble_home from "../images/dribble_home.png";
 const CompInfo = () => {
   return (
     <>
       <div class=" h-50vh md:max-w-lg p-7">
         {/* <div class="container mx-auto flex  items-center justify-between"> */}
         <img
-          src={dribble}
+          src="/images/dribble.png"
           alt="Dribbble"
           class="h-8 relative left-3 top-4 text-orange-400"
         />
@@ -17,7 +15,7 @@ const CompInfo = () => {
         </h1>
         <div class="relative ">
           <img
-            src={dribble_home}
+            src="/images/dribble_home.png"
             alt="Dribbble"
             class=" h-full max-md:max-h-1/2"
           />

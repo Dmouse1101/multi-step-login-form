@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import dribble_pink from "../images/dribble_pink.png";
 import { useNavigate, useLocation } from "react-router-dom";
 
 const Uploadpic = () => {
@@ -28,7 +27,7 @@ const Uploadpic = () => {
     <>
       <div className="flex flex-col items-center mx-auto w-full md:w-4/5 max-md:w-3/5 xl:w-2/5">
         <img
-          src={dribble_pink}
+          src="/images/dribble_pink.png"
           alt="Dribbble"
           className="h-30 w-40 absolute left-3 top-2 clear-both"
         />

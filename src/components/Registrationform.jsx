@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Uploadpic from "./Uploadpic";
 import { useNavigate } from "react-router-dom";
 
 const Registrationform = () => {
@@ -87,9 +86,9 @@ const Registrationform = () => {
           Sign In
         </a>
       </div>
-      <div className="px-14">
+      <div className="px-14 md:px-7 max-md:px-0 sm:px-0">
         <h2 className="text-2xl font-bold mb-5">Sign up to Dribbble</h2>
-        <form onSubmit={handleSubmit} action={<Uploadpic />}>
+        <form onSubmit={handleSubmit}>
           <div className="mb-4 flex">
             <div className="w-1/2 mr-4">
               <label className="block font-bold mb-2" htmlFor="name">

@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "./Header";
-import mail from "../images/mail.png";
 import Footer from "./Footer";
 import { useNavigate, useLocation } from "react-router-dom";
 const VerifyEmailPage = () => {
@@ -19,7 +18,11 @@ const VerifyEmailPage = () => {
           <div className="flex items-center justify-center mb-6">
             <div className="w-12 h-12 rounded-full bg-gray-100 flex items-center justify-center"></div>
             <a href="">
-              <img src={mail} alt="mail" className="h-24  text-white" />
+              <img
+                src="/images/mail.png"
+                alt="mail"
+                className="h-24  text-white"
+              />
             </a>
           </div>
           <div className="flex items-center flex-col">
